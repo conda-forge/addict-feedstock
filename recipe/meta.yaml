@@ -1,5 +1,5 @@
-{% set version = "1.1.0" %}
-{% set sha256 = "a33d1287625b9ce663534acc9bd7de2eb5516b39620d7fc4476009f110632289" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "27c5a83bd7b4d4f1f57ac8704388ec52b766504c870876fba5807ab2d3fe16a7" %}
 
 package:
   name: addict
@@ -11,7 +11,7 @@ source:
     sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
 
 test:
   imports:
-    - addict 
+    - addict
 
 about:
   home: https://github.com/mewwts/addict
