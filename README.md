@@ -11,6 +11,18 @@ Summary: Addict is a dictionary whose items can be set using both attribute and 
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/addict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/addict-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/addict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/addict-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/addict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/addict-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/addict/badges/version.svg)](https://anaconda.org/conda-forge/addict)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/addict/badges/downloads.svg)](https://anaconda.org/conda-forge/addict)
+
 Installing addict
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `addict` available on your platfor
 ```
 conda search addict --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/addict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/addict-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/addict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/addict-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/addict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/addict-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/addict/badges/version.svg)](https://anaconda.org/conda-forge/addict)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/addict/badges/downloads.svg)](https://anaconda.org/conda-forge/addict)
 
 
 Updating addict-feedstock
