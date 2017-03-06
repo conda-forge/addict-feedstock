@@ -1,5 +1,5 @@
-{% set version = "2.0.0" %}
-{% set sha256 = "27c5a83bd7b4d4f1f57ac8704388ec52b766504c870876fba5807ab2d3fe16a7" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "05d7d9d19692377fc0a699d8797466e6284b966f6f3316fc38a815fffcc14416" %}
 
 package:
   name: addict
