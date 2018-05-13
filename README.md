@@ -14,14 +14,16 @@ Summary: Addict is a dictionary whose items can be set using both attribute and 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/addict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/addict-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/addict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/addict-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/addict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/addict-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/addict-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/addict-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/addict-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/addict-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/addict-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/addict-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/addict/badges/version.svg)](https://anaconda.org/conda-forge/addict)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/addict/badges/downloads.svg)](https://anaconda.org/conda-forge/addict)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-addict-green.svg)](https://anaconda.org/conda-forge/addict) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/addict.svg)](https://anaconda.org/conda-forge/addict) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/addict.svg)](https://anaconda.org/conda-forge/addict) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/addict.svg)](https://anaconda.org/conda-forge/addict) |
 
 Installing addict
 =================
