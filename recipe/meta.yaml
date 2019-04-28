@@ -1,5 +1,5 @@
-{% set version = "2.2.0" %}
-{% set sha256 = "3026d77cd3f88d305bb65fb6fb55c64cde3f631f3c34c46b798169e273d86d76" %}
+{% set version = "2.2.1" %}
+{% set sha256 = "398bba9e7fa25e2ce144c5c4b8ec6208e89b9445869403dfa88ab66ec110fa12" %}
 
 package:
   name: addict
@@ -11,7 +11,7 @@ source:
     sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
