@@ -6,7 +6,6 @@ package:
   version: {{ version }}
 
 source:
-    fn: v{{ version }}.tar.gz
     url: https://github.com/mewwts/addict/archive/v{{ version }}.tar.gz
     sha256: {{ sha256 }}
 
@@ -29,6 +28,7 @@ test:
 about:
   home: https://github.com/mewwts/addict
   license: MIT
+  license_file: LICENSE
   summary: 'Addict is a dictionary whose items can be set using both attribute and item syntax.'
 
 extra:
