@@ -1,13 +1,13 @@
-{% set version = "2.2.1" %}
-{% set sha256 = "398bba9e7fa25e2ce144c5c4b8ec6208e89b9445869403dfa88ab66ec110fa12" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "7c0c6a4f8162be84eec98ba089ab4845db56c62954b5701f350e61124da04cb8" %}
 
 package:
   name: addict
   version: {{ version }}
 
 source:
-    url: https://github.com/mewwts/addict/archive/v{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+  url: https://github.com/mewwts/addict/archive/v{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   number: 0
@@ -29,7 +29,7 @@ about:
   home: https://github.com/mewwts/addict
   license: MIT
   license_file: LICENSE
-  summary: 'Addict is a dictionary whose items can be set using both attribute and item syntax.'
+  summary: Addict is a dictionary whose items can be set using both attribute and item syntax.
 
 extra:
   recipe-maintainers:
