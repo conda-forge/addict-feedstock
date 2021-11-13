@@ -1,29 +1,33 @@
+{% set name = "addict" %}
 {% set version = "2.4.0" %}
-{% set sha256 = "8eb5674667e39549e7e5534b98d7c942ec4a4195b76bdb748739eac5d3861bc1" %}
 
 package:
-  name: addict
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/mewwts/addict/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/addict-{{ version }}.tar.gz
+  sha256: b3b2210e0e067a281f5646c8c5db92e99b7231ea8b0eb5f74dbdf9e259d4e494
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 2
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
-    - setuptools
-
+    - python >=3.6
+    - pip
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
     - addict
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/mewwts/addict
